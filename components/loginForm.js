@@ -158,8 +158,8 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         marginTop: 20,
-        //backgroundColor: "#2b78e4",
-        backgroundColor: "green",
+        backgroundColor: "#2b78e4",
+        //backgroundColor: "green",
     },
 
     loginText: {
