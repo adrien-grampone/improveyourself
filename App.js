@@ -18,6 +18,27 @@ Sentry.init({
     enableInExpoDevelopment: true,
     debug: true, // If `true`, Sentry will try to print out useful debugging information if something goes wrong with sending the event. Set it to `false` in production
   });
+  /*
+   class App extends Component {
+    render() {
+      return (
+        <Provider store={store.store}>
+        <NavigationContainer>
+            <Stack.Navigator initialRouteName="Connexion">
+                <Stack.Screen name="Connexion" component={LoginForm} options={{ headerShown: false }} />
+                <Stack.Screen name="Accueil" component={Home}/>
+                <Stack.Screen name="Objectifs" component={Objectifs}/>
+                <Stack.Screen name="ModuleDetails" component={ModuleDetails}/>
+                <Stack.Screen name="ObjectifDetails" component={ObjectifDetails}/>
+                <Stack.Screen name="Settings" component={Settings}/>
+                <Stack.Screen name="Offres" component={Offres}/>
+            </Stack.Navigator>
+        </NavigationContainer>
+        </Provider>
+      )
+    }
+}
+*/
 function App() {
     //throw new Error("Erreur pour tester le snacks !");
     return (
